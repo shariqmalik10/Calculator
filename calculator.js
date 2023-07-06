@@ -1,31 +1,10 @@
-// we use .reduce to make sure that the addition function works on more than two numbers
-function addMultiple(... args){
-    return args.reduce(function(acc, cur) {
-        return acc + cur;
-    })
-}
-
-function subtractMultiple(... args){
-    return args.reduce(function(acc, cur) {
-        return acc - cur;
-    })
-}
-
-function multiplyMultiple(... args){
-    return args.reduce(function(acc, cur) {
-        return acc * cur;
-    })
-}
-
-function divideMultiple(... args){
-    return args.reduce(function(acc, cur) {
-        return acc / cur;
-    })
-}
 
 var no1;
 var no2;
 var op;
+
+//variable storing value currently displayed
+var displayed;
 
 
 // normal calculation with onyl 2 numbers 
@@ -63,3 +42,4 @@ function operate(no1, no2, op){
         return multiply(no1, no2)
     }
 }
+
