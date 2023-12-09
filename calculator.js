@@ -113,8 +113,6 @@ function updateDisplay(button){
         arg2 = ""; 
         op = "";
     }
-
-
 }
 
 function resetCalculator(){
@@ -125,6 +123,8 @@ function resetCalculator(){
     display.value = "";
     displayed = "";
 }
+
+
     
 function startCalculator(){
     buttonPress();

@@ -17,6 +17,7 @@ h1{
     font-family: 'Caveat', cursive;
     text-align: center;
     align-items: center;
+
 }
 
 .calculator {
@@ -111,4 +112,15 @@ background-color: #4e9ed4;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     padding: 20px;
+}
+
+/* toggle switch settings. Taken from https://alvarotrigo.com/blog/toggle-switch-css/ */
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-btn{
+    margin-bottom: 100px;
 }
